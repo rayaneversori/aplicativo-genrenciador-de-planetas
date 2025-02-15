@@ -1,16 +1,33 @@
-# myapp
+# 🌌 Gerenciador de Planetas
 
-A new Flutter project.
+O **Gerenciador de Planetas** é um aplicativo desenvolvido em Flutter que permite cadastrar, visualizar, editar e excluir planetas, além de manter um histórico dos planetas excluídos. O design é moderno, utilizando uma paleta de cores em tons de rosa e roxo, com uma interface intuitiva e responsiva.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Funcionalidades
 
-A few resources to get you started if this is your first Flutter project:
+- **CRUD Completo**:  
+  - Adicionar novos planetas com nome, tamanho, distância do Sol e apelido (opcional).  
+  - Editar as informações de planetas já cadastrados.  
+  - Excluir planetas com confirmação antes da ação.  
+  - Histórico de exclusões, permitindo visualizar os planetas que foram removidos.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Validação Avançada**:  
+  - Impede valores negativos para tamanho e distância.  
+  - Mensagens de erro detalhadas para preenchimento incorreto.  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Feedback Visual e Animações**:  
+  - Animações de carregamento para uma experiência mais fluida.  
+  - SnackBars centralizadas com ícones indicando sucesso ou erro.  
+
+- **Design Responsivo e Acessível**:  
+  - Interface amigável, com bordas suaves e espaçamento adequado.  
+  - Paleta de cores em tons de **rosa (#D81B60)** e **roxo (#7B1FA2)**.  
+
+---
+
+## 🚀 Tecnologias Utilizadas
+
+- **Linguagem:** Dart  
+- **Framework:** Flutter  
+- **Banco de Dados:** SQLite com Sqflite  
